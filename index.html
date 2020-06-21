@@ -20,7 +20,10 @@
   <body>
     <section class="showcase">
       <div class="video-container">
-        <video src="snow.mp4" autoplay muted loop></video>
+        <video controls autoplay muted loop>
+          <source src="snow_small.mp4" media="screen and (max-width:799px)" />
+          <source src="snow.mp4" media="screen and (min-width:800px)" />
+        </video>
       </div>
       <div class="content">
         <h1>When snow falls nature listens</h1>
